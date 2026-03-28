@@ -148,6 +148,8 @@ FROM dataset
 GROUP BY date
 ORDER BY date;
 
+---
+
 ## System Architecture
 Data Source
 - CSV dataset
