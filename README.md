@@ -150,7 +150,11 @@ This reflects real-world data engineering and analytics workflows.
 ```text
 sql-workflow-analysis/
 ├── data/
+    |___ workflow-data.csv
 ├── sql/
+    |___ workflow-queries.sql
+├── assets/
+    |___ analysis-dashboard.png
 ├── README.md
 ```
 ---
