@@ -161,8 +161,13 @@ sql-workflow-analysis/
 
 ## 📊 Dashboard / Visualization
 The dashboard below highlights key workflow trends and operational insights derived from the dataset.
-
 ![Workflow Analysis Dashboard](assets/analysis-dashboard.png)
+
+## 📊 Key Insights
+- Reinstatement filings had the highest average processing time, indicating workflow complexity and potential approval bottlenecks  
+- Foreign Qualification filings also required longer processing durations, suggesting inefficiencies in multi-state processing  
+- Certificate of Good Standing filings were processed the fastest, reflecting optimized and streamlined workflows  
+- Delayed filings were present across multiple categories, highlighting opportunities for workflow improvement  
 
 ---
 
