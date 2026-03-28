@@ -147,32 +147,22 @@ This reflects real-world data engineering and analytics workflows.
 ---
 
 ## 📁 Project Structure
+```text
 sql-workflow-analysis/
 ├── data/
 ├── sql/
 ├── README.md
-
+```
 ---
 
 ## 📊 Dashboard / Visualization
-
 The dashboard below highlights key workflow trends and operational insights derived from the dataset.
 
 ![Workflow Analysis Dashboard](assets/analysis-dashboard.png)
 
 ---
 
-## 🚀 Future Improvements
-
-- Build interactive dashboards (Power BI / Tableau)  
-- Integrate with live databases  
-- Automate data pipelines  
-- Expand dataset for deeper insights  
-
----
-
 ## 🔧 Example SQL Queries
-
 ```sql
 -- Count total records
 SELECT COUNT(*) FROM dataset;
@@ -188,3 +178,12 @@ SELECT date, COUNT(*)
 FROM dataset
 GROUP BY date
 ORDER BY date;
+```
+
+---
+
+## 🚀 Future Improvements
+- Build interactive dashboards (Power BI / Tableau)  
+- Integrate with live databases  
+- Automate data pipelines  
+- Expand dataset for deeper insights
