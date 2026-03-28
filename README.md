@@ -170,7 +170,8 @@ sql-workflow-analysis/
 ├── README.md
 
 ## 📊 Dashboard / Visualization
-(Add screenshot here)
+<img width="955" height="313" alt="analysis-dashboard" src="https://github.com/user-attachments/assets/8d17b786-26c5-47e7-a945-48faa9666c5b" />
+
 
 ## 🚀 Future Improvements
 - Build interactive dashboards (Power BI / Tableau)
