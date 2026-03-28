@@ -147,6 +147,7 @@ SELECT date, COUNT(*)
 FROM dataset
 GROUP BY date
 ORDER BY date;
+```sql
 
 ---
 
