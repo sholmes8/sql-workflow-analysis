@@ -130,35 +130,46 @@ This reflects real-world data engineering and analytics workflows.
 
 ---
 
+## 🏗️ System Architecture
 
-## System Architecture
-Data Source
-- CSV dataset
+**Data Source**
+- CSV dataset  
 
-Processing Layer
-- SQL queries for analysis
+**Processing Layer**
+- SQL queries for analysis  
 
-Visualization Layer
-- Excel or dashboard tools
+**Visualization Layer**
+- Excel or dashboard tools  
 
-Output
-- Insights and reports
+**Output**
+- Insights and reports  
 
-## Project Structure
+---
+
+## 📁 Project Structure
 sql-workflow-analysis/
 ├── data/
 ├── sql/
 ├── README.md
 
+---
+
 ## 📊 Dashboard / Visualization
-<img width="955" height="313" alt="analysis-dashboard" src="https://github.com/user-attachments/assets/8d17b786-26c5-47e7-a945-48faa9666c5b" />
+
+The dashboard below highlights key workflow trends and operational insights derived from the dataset.
+
+![Workflow Analysis Dashboard](assets/analysis-dashboard.png)
+
+---
 
 ## 🚀 Future Improvements
-- Build interactive dashboards (Power BI / Tableau)
-- Integrate with live databases
-- Automate data pipelines
-- Expand dataset for deeper insights
 
+- Build interactive dashboards (Power BI / Tableau)  
+- Integrate with live databases  
+- Automate data pipelines  
+- Expand dataset for deeper insights  
+
+---
 
 ## 🔧 Example SQL Queries
 
@@ -177,6 +188,3 @@ SELECT date, COUNT(*)
 FROM dataset
 GROUP BY date
 ORDER BY date;
-
----
-
