@@ -130,26 +130,6 @@ This reflects real-world data engineering and analytics workflows.
 
 ---
 
-## 🔧 Example SQL Queries
-
-```sql
--- Count total records
-SELECT COUNT(*) FROM dataset;
-
--- Identify most frequent categories
-SELECT category, COUNT(*) 
-FROM dataset
-GROUP BY category
-ORDER BY COUNT(*) DESC;
-
--- Analyze trends over time
-SELECT date, COUNT(*) 
-FROM dataset
-GROUP BY date
-ORDER BY date;
-```sql
-
----
 
 ## System Architecture
 Data Source
@@ -173,9 +153,30 @@ sql-workflow-analysis/
 ## 📊 Dashboard / Visualization
 <img width="955" height="313" alt="analysis-dashboard" src="https://github.com/user-attachments/assets/8d17b786-26c5-47e7-a945-48faa9666c5b" />
 
-
 ## 🚀 Future Improvements
 - Build interactive dashboards (Power BI / Tableau)
 - Integrate with live databases
 - Automate data pipelines
 - Expand dataset for deeper insights
+
+
+## 🔧 Example SQL Queries
+
+```sql
+-- Count total records
+SELECT COUNT(*) FROM dataset;
+
+-- Identify most frequent categories
+SELECT category, COUNT(*) 
+FROM dataset
+GROUP BY category
+ORDER BY COUNT(*) DESC;
+
+-- Analyze trends over time
+SELECT date, COUNT(*) 
+FROM dataset
+GROUP BY date
+ORDER BY date;
+
+---
+
